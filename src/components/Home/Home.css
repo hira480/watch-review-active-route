@@ -1,0 +1,41 @@
+.interface {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.text-container {
+    margin-left: 100px;
+    text-align: left;
+    align-items: center;
+}
+
+.text-container h2 {
+    font-size: 60px;
+    color: purple;
+}
+
+.text-container p {
+    font-size: 18px;
+    color: gray;
+}
+
+.img-container img {
+    height: 400px;
+
+}
+
+.demo-btn {
+    border: none;
+    padding: 15px 25px;
+    background-color: rgb(158, 92, 158);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.demo-btn:hover {
+    background-color: orange;
+}
