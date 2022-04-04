@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# HIRA Time Zone With REact.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+* Bullet list
+     * Nested bullet
+        * Sub-nested bullet etc
+           * Bullet list item 2
 
 ## Available Scripts
 
