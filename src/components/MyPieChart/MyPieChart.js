@@ -13,15 +13,11 @@ const MyPieChart = () => {
     ];
     const data02 = [
         { name: "Mar", value: 10401 },
-        { name: "Apr1", value: 12000 },
-        { name: "Apr2", value: 12500 },
-        { name: "May1", value: 50000 },
-        { name: "May2", value: 47010 },
+        { name: "Apr", value: 24500 },
+        { name: "May", value: 97010 },
         { name: "Jun", value: 90405 },
-        { name: "Jul1", value: 100900 },
-        { name: "Jul2", value: 150000 },
-        { name: "Aug1", value: 181000 },
-        { name: "Aug2", value: 120000 }
+        { name: "Jul", value: 250900 },
+        { name: "Aug", value: 301000 },
     ];
     return (
         <PieChart width={600} height={600}>

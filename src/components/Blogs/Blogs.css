@@ -1,0 +1,16 @@
+.blog {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: lightgoldenrodyellow;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.blog2 {
+    margin-top: 20px;
+}
+
+.blog p {
+    text-align: left;
+}
