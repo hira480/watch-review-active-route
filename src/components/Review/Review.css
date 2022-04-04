@@ -1,0 +1,11 @@
+.revier-cart {
+    height: 350px;
+    /* border: 1px solid lightgray; */
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 10px 15px #bdbbbb;
+}
+
+.revier-cart img {
+    height: 150px;
+}

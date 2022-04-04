@@ -1,10 +1,12 @@
 import React from 'react';
+import ReviewItem from '../ReviewItem/ReviewItem';
 import './Reviews.css';
 
 const Reviews = () => {
     return (
-        <div>
-            <h2>This is review</h2>
+        <div className='reviews-route'>
+            <h2>This is Full Review</h2>
+            <ReviewItem></ReviewItem>
         </div>
     );
 };
