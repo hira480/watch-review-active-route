@@ -4,7 +4,7 @@ import './Blogs.css';
 const Blogs = () => {
     return (
         <div className='blogs'>
-            <h2>This is Blogs</h2>
+            <h2>Welcome to My Blog</h2>
             <div className='blog'>
                 <h2>What is Context API?</h2>
                 <p>Context API is the way by which we can share data from root to child without props drilling. Basically context is most powerful to avoid props drilling. We can directly sent data through context without sharing the same data of any other components or child. It avoid the complexity to sharing data.</p>
