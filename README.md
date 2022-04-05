@@ -1,4 +1,4 @@
-# HIRA Time Zone With REact.
+# HIRA Time Zone With React.
 
 ### `Live Site`
 

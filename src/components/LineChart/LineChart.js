@@ -46,7 +46,7 @@ const MyLineChart = () => {
     return (
         <div className='container'>
             <h3>Line Chart about Sell invest and profit</h3>
-            <LineChart className='line-chart' width={600} height={400} data={data}>
+            <LineChart width={600} height={400} data={data}>
                 <Line dataKey={'investment'}></Line>
                 <Line dataKey={'sell'}></Line>
                 <Line dataKey={'revenue'}></Line>
