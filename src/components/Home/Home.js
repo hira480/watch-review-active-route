@@ -3,10 +3,9 @@ import './Home.css';
 import img from '../../img/img.jpg';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
-import ReviewItem from '../ReviewItem/ReviewItem';
 
 const Home = () => {
-    const [reviews, setReviews] = useReviews();
+    const [reviews] = useReviews();
     return (
         <div className='home-container'>
             <div className='interface'>
@@ -22,13 +21,11 @@ const Home = () => {
             <h1>Customer Reviews</h1>
             <div className='review-container'>
                 {
-                    reviews.map(review => <Review
+                    reviews.slice(0, 3).map(review => <Review
                         key={review.id}
                         review={review}
                     ></Review>)
                 }
-
-                {/* <ReviewItem></ReviewItem> */}
             </div>
             <button className='demo-btn'>See More Reviews</button>
         </div>

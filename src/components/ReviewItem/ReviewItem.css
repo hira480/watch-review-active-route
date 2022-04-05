@@ -4,3 +4,10 @@
     grid-gap: 30px;
     margin: 30px;
 }
+
+@media screen and (max-width: 688px) {
+    .review-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -51,3 +51,15 @@
     grid-gap: 30px;
     margin: 30px;
 }
+
+@media screen and (max-width:688px) {
+    .interface {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .review-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
