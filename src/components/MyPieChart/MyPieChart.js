@@ -1,4 +1,5 @@
 import React from 'react';
+import './MyPieChart.css';
 import { PieChart, Pie, Tooltip, } from "recharts";
 
 const MyPieChart = () => {
@@ -20,27 +21,30 @@ const MyPieChart = () => {
         { name: "Aug", value: 301000 },
     ];
     return (
-        <PieChart width={600} height={600}>
-            <Pie
-                data={data01}
-                dataKey="value"
-                cx={200}
-                cy={200}
-                outerRadius={100}
-                fill="#8884d8"
-            />
-            <Pie
-                data={data02}
-                dataKey="value"
-                cx={200}
-                cy={200}
-                innerRadius={130}
-                outerRadius={170}
-                fill="#82ca9d"
-                label
-            />
-            <Tooltip></Tooltip>
-        </PieChart>
+        <div className='container'>
+            <h3>Pie Chart About Investment and Profit per month</h3>
+            <PieChart width={500} height={400}>
+                <Pie
+                    data={data01}
+                    dataKey="value"
+                    cx={200}
+                    cy={200}
+                    outerRadius={100}
+                    fill="#8884d8"
+                />
+                <Pie
+                    data={data02}
+                    dataKey="value"
+                    cx={200}
+                    cy={200}
+                    innerRadius={130}
+                    outerRadius={170}
+                    fill="#82ca9d"
+                    label
+                />
+                <Tooltip></Tooltip>
+            </PieChart>
+        </div>
 
     );
 };

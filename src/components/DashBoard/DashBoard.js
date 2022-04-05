@@ -5,7 +5,7 @@ import './Dashboart.css';
 
 const DashBoard = () => {
     return (
-        <div>
+        <div className='dashboard-container'>
             <h2>Tis is dashboard</h2>
             <div className='dashboard'>
                 <MyLineChart></MyLineChart>
